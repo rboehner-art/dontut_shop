@@ -14,3 +14,17 @@ button {
 nav{
     background-color: #3d315b;
 }
+
+body{
+   
+    height: 100vh;
+    min-height: 40em;
+    background-image:url(Image/intro-1603968859.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+footer{
+    background-color: #3d315b;
+}
