@@ -1,0 +1,16 @@
+button {
+    font-family: font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
+    Background-color: #CB9173;
+    border: none;
+    color: #320A28;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav{
+    background-color: #3d315b;
+}
