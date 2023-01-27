@@ -9,6 +9,10 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
+
+}
+input.right{
+    float: right;
 }
 
 nav{
