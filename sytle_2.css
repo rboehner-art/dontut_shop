@@ -1,5 +1,6 @@
 body{
-    
+    font-family: font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
     Background-color: #fff7ae;
     font-size: 20px;
 
@@ -22,9 +23,10 @@ body{
   float: center;
   overflow: hidden;
   background-color: #3D315B;
-  border-radius: 30px;
-  padding: 20px 12px;
-  width: 34%;
+  border-radius: 40px;
+  padding: 22px 12px;
+  width: 35%;
+  
 }
 
 /* Navbar links */
@@ -34,14 +36,14 @@ body{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 .topnav a:hover {
     font-family: font-family: 'Crimson Text', serif;
     font-family: 'Montserrat', sans-serif;
   background-color: #ddd;
-  color: black;
+  color: none;
 }
 
 video{
@@ -53,3 +55,6 @@ video{
     height: 100%;
       
   }
+  footer{
+    background-color: #3d315b;
+}
