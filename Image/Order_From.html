@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>html {
+    <style>
+    html {
         box-sizing: border-box;
         font: 62.5% "Noto Sans JP", sans-serif;
       }
@@ -14,7 +15,7 @@
       }
       
       body {
-        background: #2f3640;
+        background: #fff7ae;
         font-size: 1.6em;
         margin: 0;
         min-height: 100vh;
@@ -81,10 +82,15 @@
       .img-four{
         background-image: url();
       }
+      .img-five{
+        background-image: url();
+      }
+
       .img-one,
       .img-two,
-      .img-three
-      .img-four {
+      .img-three,
+      .img-four,
+      .img-five {
         background-size: cover;
         background-position: center;
       }
@@ -113,26 +119,38 @@
       
       /* color */
       .product-card:first-child h3 {
-        color: #e84118;
+        color: #320a28;
       }
       
       .product-card:first-child button {
-        background-color: #e84118;
+        background-color: #cb9173;
       }
       
       .product-card:nth-child(2) h3 {
-        color: #fbc531;
+        color: #ffc1cf;
       }
       
       .product-card:nth-child(2) button {
-        background-color: #fbc531;
+        background-color: #91a8a4;
+      }
+      .product-card:last-child button {
+        color: #320a28;
       }
       
       .product-card:last-child h3 {
-        color: #0097e6;
+        color: #320a28;
       }
       
-      .product-card:last-child button {
+      .product-card:<div class="product-card">
+          <div class="product-img img-one"></div>
+          <div class="product-text">
+            <h3>Coffee</h3>
+            <p>A chocolate donut with a light coffee taste.</p>
+          </div>
+          <div class="product-cart">
+            <button type="submit">Add to cart</button>
+          </div>
+        </div> button {
         background-color: #0097e6;
       }
       
@@ -150,7 +168,7 @@
       }</style>
     <title>Document</title>
 </head>
-<body>
+
     <div class="container">
   
         <div class="product-card">
@@ -163,6 +181,8 @@
             <button type="submit">Add to cart</button>
           </div>
         </div>
+         
+          
         
         <div class="product-card">
           <div class="product-img img-two"></div>
@@ -187,15 +207,28 @@
         </div>
         
       </div>
+      
       <div class="product-card">
         <div class="product-img img-four"></div>
         <div class="product-text">
-          <h3>Pink</h3>
+          <h3>Create </h3>
           <p>A pink donut with sprinkles.</p>
         </div>
         <div class="product-cart">
           <button type="submit">Add to cart</button>
         </div>
       </div>
+      <div class="product-card">
+        <div class="product-img img-five"></div>
+        <div class="product-text">
+          <h3>Coffee</h3>
+          <p>A chocolate donut with a light coffee taste.</p>
+        </div>
+        <div class="product-cart">
+          <button type="submit">Add to cart</button>
+        </div>
+      </div>
+      
+    
 </body>
 </html>
