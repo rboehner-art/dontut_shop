@@ -157,6 +157,16 @@
       }</style>
     <title>Document</title>
 </head>
+<?php
+session_start();
+if (!isset($_SESSION['cart'])) {
+  $_SESSION['cart'] = [];
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $item = $_POST['item'];
+  $_SESSION['cart'][] = $item;
+}
 
     <div class="container">
   
@@ -235,7 +245,8 @@
           
         </div>
       </div>
-      
+
+
     
 </body>
 </html>
