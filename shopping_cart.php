@@ -19,3 +19,8 @@
     <input type="submit" value="Submit">
   </div>
 </form>
+
+<form action="/cart" method="post">
+  <input type="hidden" name="item" value="item1">
+  <button type="submit">Add to Cart</button>
+</form>
