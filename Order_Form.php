@@ -44,7 +44,7 @@
         font-size: 1.2em;
       }
       
-      p {]
+      p {
         font-family: font-family: 'Crimson Text', serif;
         font-family: 'Montserrat', sans-serif;
         font-size: 1em;
@@ -151,30 +151,15 @@
         background-color: #0097e6;
       }
       
-      /* media queries */
-      @media screen and (max-width: 860px) {
-        .container {
-          display: grid;
-          grid-column-templates: 1fr;
-          grid-auto-rows: auto;
-        }
+   
         
         .product-card {
           margin: 1.5em;
         }
-      }</style>
+      </style>
+
     <title>Document</title>
 </head>
-<?php
-session_start();
-if (!isset($_SESSION['cart'])) {
-  $_SESSION['cart'] = [];
-}
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  $item = $_POST['item'];
-  $_SESSION['cart'][] = $item;
-}
 
     <div class="container">
   
@@ -253,8 +238,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           
         </div>
       </div>
+      
 
+    </div>
 
-    
 </body>
 </html>

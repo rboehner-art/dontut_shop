@@ -22,6 +22,7 @@
                 <li><a onclick="openChildWindow()">Order Now</a></li>
                 <li><a href="#Location">Location</a></li>
                 <li><a href="home.html">Donut Menu</a></li>
+              
               </ul>
                   
                 </div>
@@ -39,8 +40,8 @@
   <script src="javaScript.js"></script>
 </body>
         <footer class="py-4 ">
-  <button type="button">Contact</button>
-  <button type="button">Jobs</button> 
+  <button class="button button1">Contact</button>
+  <button class="button button2">Jobs</button> 
   <p class="hours">Hours of operation 5:00 A.M. to 3:00 P.M.</p>
         
 
