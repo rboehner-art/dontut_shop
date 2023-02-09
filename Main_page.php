@@ -20,7 +20,7 @@
                 <div>
               <ul>
                 <li><a onclick="openChildWindow()">Order Now</a></li>
-                <li><a href="#Location">Location</a></li>
+                <li><a onclick="openChildWindowTwo()" href="">Location</a></li>
                 <li><a href="home.html">Donut Menu</a></li>
               
               </ul>
@@ -40,11 +40,11 @@
   <script src="javaScript.js"></script>
 </body>
         <footer class="py-4 ">
-  <button class="button button1">Contact</button>
-  <button class="button button2">Jobs</button> 
+  <button onclick="openWindow()" class="button button1" >Contact</button>
+  <button onclick="openJobs()" class="button button2">Jobs</button> 
   <p class="hours">Hours of operation 5:00 A.M. to 3:00 P.M.</p>
         
-
+  <script src="javaScript.js"></script>
     
 </footer>
 </html>
