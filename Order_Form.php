@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="shopping_cart.php" ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <style>
         @media (max-width: 600px) {
         body {
@@ -160,87 +161,88 @@
 
     <title>Document</title>
 </head>
+<body>
 
+<div class="cart">
+  <h2>Cart</h2>
+  <ul>
+    <!-- This is where the items in the cart will be displayed -->
+  </ul>
+</div>
     <div class="container">
-  
-        <div class="product-card">
-          <div class="product-img img-one"></div>
-          <div class="product-text">
-            <h3>Coffee</h3>
-            <p>A chocolate donut with a light coffee taste.</p>
-          </div>
-         
-          <div class="product-cart">
-            <form action="" method="post">
-              <input type="hidden" name="item" value="item1">
-              <button type="submit">Add to Cart</button>
-            </form>
-           
-          </div>
-        </div>
+    <div class="product-card">
+  <div class="product-img img-one"></div>
+  <div class="product-text">
+    <h3>Coffee</h3>
+    <p>A chocolate donut with a light coffee taste.</p>
+  </div>
+  <div class="product-cart">
+    <form action="" method="post" onsubmit="addToCart(event, 'Coffee')">
+      <input type="hidden" name="item" value="Coffee">
+      <button type="submit">Add to Cart</button>
+    </form>
+  </div>
+</div>
          
           
-        
-        <div class="product-card">
-          <div class="product-img img-two"></div>
-          <div class="product-text">
-            <h3>Pink</h3>
-            <p>A pink donut with sprinkles.</p>
-          </div>
-          <div class="product-cart">
-            <form action="" method="post">
-              <input type="hidden" name="item" value="item1">
-              <button type="submit">Add to Cart</button>
-            
-          </div>
-        </div>
-        
-        <div class="product-card">
-          <div class="product-img img-three"></div>
-          <div class="product-text">
-            <h3>Zibra</h3>
-            <p>Chocolate and white frosting</p>
-          </div>
-          <div class="product-cart">
-          <form action="" method="post">
-            <input type="hidden" name="item" value="item1">
-            <button type="submit">Add to Cart</button>
-          
-            
-          </div>
-        </div>
-        
+<div class="product-card">
+  <div class="product-img img-two"></div>
+  <div class="product-text">
+    <h3>Pink</h3>
+    <p>A pink donut with sprinkles.</p>
+  </div>
+  <div class="product-cart">
+    <form action="" method="post" onsubmit="addToCart(event, 'Pink')">
+      <input type="hidden" name="item" value="Pink">
+      <button type="submit">Add to Cart</button>
+    </form>
+  </div>
       </div>
-      
-      <div class="product-card">
-        <div class="product-img img-four"></div>
-        <div class="product-text">
-          <h3>Brownie </h3>
-          <p>A donut and a brownie?</p>
-        </div>
-        <div class="product-cart">
-          <form action="" method="post">
-            <input type="hidden" name="item" value="item1">
-            <button type="submit">Add to Cart</button>
-          
-        </div>
-      </div>
-      <div class="product-card">
-        <div class="product-img img-five"></div>
-        <div class="product-text">
-          <h3>Special</h3>
-          <p>Chef Creation</p>
-        </div>
-        <div class="product-cart">
-          <form action="" method="post">
-            <input type="hidden" name="item" value="item1">
-            <button type="submit">Add to Cart</button>
-          
-        </div>
-      </div>
-      
 
-    </div>
+      <div class="container">
+    <div class="product-card">
+  <div class="product-img img-three"></div>
+  <div class="product-text">
+    <h3>Zibra</h3>
+    <p>Chocolate and White frosting</p>
+  </div>
+  <div class="product-cart">
+    <form action="" method="post" onsubmit="addToCart(event, 'Zibra')">
+      <input type="hidden" name="item" value="Zibra">
+      <button type="submit">Add to Cart</button>
+    </form>
+  </div>
+</div>
+        
+<div class="container">
+    <div class="product-card">
+  <div class="product-img img-four"></div>
+  <div class="product-text">
+    <h3>Brownie</h3>
+    <p>A donut and a brownie?</p>
+  </div>
+  <div class="product-cart">
+    <form action="" method="post" onsubmit="addToCart(event, 'Brownie')">
+      <input type="hidden" name="item" value="Brownie">
+      <button type="submit">Add to Cart</button>
+    </form>
+  </div>
+</div>
+<div class="container">
+    <div class="product-card">
+  <div class="product-img img-five"></div>
+  <div class="product-text">
+    <h3>Special</h3>
+    <p>Chef Creation</p>
+  </div>
+  <div class="product-cart">
+    <form action="" method="post" onsubmit="addToCart(event, 'Special')">
+      <input type="hidden" name="item" value="Special">
+      <button type="submit">Add to Cart</button>
+    </form>
+  </div>
+</div>
+<script src="javaScript.js"></script>
 
 </body>
 </html>
