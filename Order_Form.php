@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="shopping_cart.php" ></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
     <style>
         @media (max-width: 600px) {
         body {
@@ -97,7 +98,7 @@
         background-image: url(https://images.pexels.com/photos/12347692/pexels-photo-12347692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
       }
       .img-five{
-        background-image: url(Image/aleisha-kalina-DxSW4Ws4JO8-unsplash.jpg);
+        background-image: url(Image/doughnut-ice-cream-sandwich-072822-TOH-07-Lauren-Habermehl-JVedit.jpeg);
       }
 
       .img-one,
@@ -236,8 +237,15 @@
     <p>Chef Creation</p>
   </div>
   <div class="product-cart">
+    <p>Customize Ice Cream</p>
     <form action="" method="post" onsubmit="addToCart(event, 'Special')">
       <input type="hidden" name="item" value="Special">
+      <input type="radio" id="Chocolate" name="Ice_Cream_Flavor" value="Chocolate">
+  <label for="Chocolate">Chocolate</label><br>
+<input type="radio" id="Vanilla" name="Ice_Cream_Flavor" value="Vanilla">
+  <label for="Vanilla">Vanilla</label><br>
+<input type="radio" id="Raspberry" name="Ice_Cream_Flavor" value="Raspberry">
+  <label for="Raspberry">Raspberry</label><br>
       <button type="submit">Add to Cart</button>
     </form>
   </div>

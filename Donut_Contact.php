@@ -63,7 +63,7 @@
         $hostname = "127.0.0.1";
         $username = "root";
         $password = "";
-        $databasename = "RB_nov22_Contacts";
+        $databasename = "";
 
         try {
             //Create new PDO Object with connection parameters

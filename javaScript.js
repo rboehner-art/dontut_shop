@@ -1,9 +1,11 @@
-function openChildWindow() {
-  var windowFeatures = "width=1000, height=600, left=" + (window.outerWidth / 2 - 200) + ", top=" + (window.outerHeight / 2 - 150);
-  window.open("Order_Form.php", "Child Window", windowFeatures);
+
+//menu button
+function openWindowTwo() {
+  window.open ("Order_Form.php","_blank");
 }
 
 
+//location button
 function openChildWindowTwo(){
   var windowFeatures = "width=1000, height=600, left=" + (window.outerWidth / 2 - 200) + ", top=" + (window.outerHeight / 2 - 150);
   window.open("https://tinyurl.com/yzr4ct28", "Child Window", windowFeatures);

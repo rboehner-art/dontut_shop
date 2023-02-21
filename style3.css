@@ -1,8 +1,17 @@
+body{
+  font-family: 'Crimson Text', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
 /* Position the navbar container inside the image */
 .container {
-    position: absolute;
+    position: center;
     margin: 20px;
     width: auto;
+   
   }
   
   /* The navbar */
@@ -24,9 +33,11 @@
   }
   
   .topnav li {
+    font-family: 'Crimson Text', serif, 'Montserrat', sans-serif;
     margin: 0 10px;
   }
   .topnav a{
+    font-family: 'Crimson Text', serif, 'Montserrat', sans-serif;
   text-decoration: none;
   
   }
