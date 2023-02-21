@@ -139,8 +139,8 @@
 				<!-- Section Title -->
 				<div class="row justify-content-center text-center" >
 					<div class="col-md-6">
-						<h2 class="display-4 font-weight-bold">Contact Us</h2>
-						<hr />
+						<h2 class="">Contact Us</h2>
+						<hr/>
 					</div>
 				</div>
 				<!-- Contact Form Row -->

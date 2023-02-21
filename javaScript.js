@@ -21,8 +21,9 @@ function openJobs(){
   alert("If I was a real Donut shop we would have real jobs.")
 }
 
+
 // add to cart
-function addToCart(event, item) {
+function addToCart(event, item, ) {
   event.preventDefault(); // Prevent the form from submitting
 
   // Find the cart element and the ul element inside it
@@ -36,3 +37,5 @@ function addToCart(event, item) {
   // Add the li to the ul
   cartList.appendChild(li);
 }
+
+

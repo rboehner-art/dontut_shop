@@ -165,6 +165,7 @@
 <body>
 
 <div class="cart">
+  
   <h2>Cart</h2>
   <ul>
     <!-- This is where the items in the cart will be displayed -->
@@ -238,15 +239,15 @@
   </div>
   <div class="product-cart">
     <p>Customize Ice Cream</p>
-    <form action="" method="post" onsubmit="addToCart(event, 'Special')">
+    <form action="" method="post" onsubmit="addToCart(event, 'Special','Vanilla')">
       <input type="hidden" name="item" value="Special">
-      <input type="radio" id="Chocolate" name="Ice_Cream_Flavor" value="Chocolate">
-  <label for="Chocolate">Chocolate</label><br>
-<input type="radio" id="Vanilla" name="Ice_Cream_Flavor" value="Vanilla">
-  <label for="Vanilla">Vanilla</label><br>
-<input type="radio" id="Raspberry" name="Ice_Cream_Flavor" value="Raspberry">
-  <label for="Raspberry">Raspberry</label><br>
-      <button type="submit">Add to Cart</button>
+      <input    type="radio" id="Chocolate" name="item" value="Chocolate">
+             <label  for="Chocolate">Chocolate </label><br>
+              <input type="radio" id="Vanilla" name="item" value="Vanilla">
+             <label for="Vanilla">Vanilla</label><br>
+              <input type="radio" id="Raspberry" name="item" value="Raspberry">
+              <label for="Raspberry">Raspberry</label><br>
+                     <button  type="submit">Add to Cart</button>
     </form>
   </div>
 </div>
